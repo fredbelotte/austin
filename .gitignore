@@ -2,10 +2,11 @@
 # https://git-scm.com/docs/gitignore
 
 ## Jekyll
-_site/
-.sass-cache/
 .jekyll-cache/
-.jekyll-metadata
+_site/
 
 ## macOS
 .DS_Store
+
+## Visual Studio Code
+.vscode/
