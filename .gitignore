@@ -1,4 +1,11 @@
 # gitignore
+# https://git-scm.com/docs/gitignore
+
+## Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 ## macOS
 .DS_Store
