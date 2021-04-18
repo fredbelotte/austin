@@ -1,0 +1,8 @@
+# gitignore
+# https://git-scm.com/docs/gitignore
+
+## macOS
+.DS_Store
+
+## Visual Studio Code
+.vscode/
