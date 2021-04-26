@@ -1,0 +1,4 @@
+# markdownlint
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+headings: true
