@@ -25,3 +25,34 @@ MD009:
   br_spaces: 2
   list_item_empty_lines: true
   strict: true
+
+## hard tab
+MD010:
+  code_blocks: true
+
+## link syntax
+MD011: true
+
+## blank line
+MD012:
+  maximum: 1
+
+## line length
+MD013:
+  line_length: 80
+  heading_line_length: 80
+  code_block_line_length: 80
+  code_blocks: true
+  tables: true
+  headings: true
+  strict: false
+  stern: true
+
+## command prompt
+MD014: true
+
+## heading no-space
+MD018: true
+
+## heading multi-space
+MD019: true
