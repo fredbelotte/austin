@@ -1,43 +1,43 @@
 # markdownlint
 # https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
 
-## heading level
+## heading-increment
 MD001: true
 
-## heading style
+## heading-style
 MD003:
   style: atx
 
-## list style
+## ul-style
 MD004:
   style: dash
 
-## list level
+## list-indent
 MD005: true
 
-## list indentation
+## ul-indent
 MD007:
   indent: 2
   start_indented: false
 
-## trailing space
+## no-trailing-spaces
 MD009:
   br_spaces: 2
   list_item_empty_lines: true
   strict: true
 
-## hard tab
+## no-hard-tabs
 MD010:
   code_blocks: true
 
-## link syntax
+## no-reversed-links
 MD011: true
 
-## blank line
+## no-multiple-blanks
 MD012:
   maximum: 1
 
-## line length
+## line-length
 MD013:
   line_length: 80
   heading_line_length: 80
@@ -48,11 +48,49 @@ MD013:
   strict: false
   stern: true
 
-## command prompt
+## commands-show-output
 MD014: true
 
-## heading no-space
+## no-missing-space-atx
 MD018: true
 
-## heading multi-space
+## no-multiple-space-atx
 MD019: true
+
+## no-missing-space-closed-atx
+MD020: true
+
+## no-multiple-space-closed-atx
+MD021: true
+
+## blanks-around-headings
+MD022:
+  lines_above: 1
+  lines_below: 1
+
+## heading-start-left
+MD023: true
+
+## no-duplicate-heading
+MD024:
+  allow_different_nesting: true
+  siblings_only: true
+
+## single-title
+MD025:
+  level: 1
+  front_matter_title: ^\s*title\s*[:=]
+
+## no-trailing-punctuation
+MD026:
+  punctuation: .,:;!
+
+## no-multiple-space-blockquote
+MD027: true
+
+## no-blanks-blockquote
+MD028: true
+
+## ol-prefix
+MD029:
+  style: one
