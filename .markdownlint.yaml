@@ -1,4 +1,27 @@
 # markdownlint
 # https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
 
-headings: true
+## heading level
+MD001: true
+
+## heading style
+MD003:
+  style: atx
+
+## list style
+MD004:
+  style: dash
+
+## list level
+MD005: true
+
+## list indentation
+MD007:
+  indent: 2
+  start_indented: false
+
+## trailing space
+MD009:
+  br_spaces: 2
+  list_item_empty_lines: true
+  strict: true
