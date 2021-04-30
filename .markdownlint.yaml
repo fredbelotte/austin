@@ -39,12 +39,12 @@ MD012:
 
 ## line-length
 MD013:
-  line_length: 80
-  heading_line_length: 80
-  code_block_line_length: 80
   code_blocks: true
-  tables: true
+  code_block_line_length: 80
   headings: true
+  heading_line_length: 80
+  line_length: 80
+  tables: true
   strict: false
   stern: true
 
@@ -78,8 +78,8 @@ MD024:
 
 ## single-title
 MD025:
-  level: 1
   front_matter_title: ^\s*title\s*[:=]
+  level: 1
 
 ## no-trailing-punctuation
 MD026:
@@ -94,3 +94,41 @@ MD028: true
 ## ol-prefix
 MD029:
   style: one
+
+## list-marker-space
+MD030:
+  ol_multi: 1
+  ol_single: 1
+  ul_multi: 1
+  ul_single: 1
+
+## blanks-around-fences
+MD031:
+  list_items: true
+
+## blanks-around-lists
+MD032: true
+
+## no-inline-html
+MD033:
+  allowed_elements: []
+
+## no-bare-urls
+MD034: true
+
+## hr-style
+MD035:
+  style: ---
+
+## no-emphasis-as-heading
+MD036:
+  punctuation: .:,;!
+
+## no-space-in-emphasis
+MD037: true
+
+## no-space-in-code
+MD038: true
+
+## no-space-in-links
+MD039: true
