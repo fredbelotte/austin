@@ -132,3 +132,37 @@ MD038: true
 
 ## no-space-in-links
 MD039: true
+
+## fenced-code-language
+MD040: true
+
+## first-line-heading
+MD041:
+  front_matter_title: ^\s*title\s*[:=]
+  level: 1
+
+## no-empty-links
+MD042: true
+
+## required-headings
+MD043:
+  headings: ["+"]
+
+## proper-names
+MD044:
+  code_blocks: true
+  names: []
+
+## no-alt-text
+MD045: true
+
+## code-block-style
+MD046:
+  style: fenced
+
+## single-trailing-newline
+MD047: true
+
+## code-fence-style
+MD048:
+  style: backtick
