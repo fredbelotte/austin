@@ -6,7 +6,7 @@
 
 ## license
 
-The project is made availabl under the terms of the [MIT License][license_mit].
+The project is made available under the terms of the [MIT License][license_mit].
 
 [avatar_fb]: https://avatars.githubusercontent.com/u/22018714?s=64&v=4 "fred belotte"
 [license_mit]: https://github.com/fredbelotte/austin/blob/main/LICENSE "mit license"
