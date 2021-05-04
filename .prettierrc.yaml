@@ -1,0 +1,35 @@
+# prettier
+# https://prettier.io/docs/en/options.html
+
+## arrow-parens
+arrowParens: always
+
+## no-bracket-spacing
+bracketSpacing: true
+
+## jsx-bracket-same-line
+jsxBracketSameLine: false
+
+## jsx-single-quote
+jsxSingleQuote: true
+
+## print-width
+printWidth: 80
+
+## quote-props
+quoteProps: preserve
+
+## no-semi
+semi: true
+
+## single-quote
+singleQuote: true
+
+## tab-width
+tabWidth: 2
+
+## trailing-comma
+trailingComma: es5
+
+## use-tabs
+useTabs: false
