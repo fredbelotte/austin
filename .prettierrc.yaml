@@ -1,0 +1,56 @@
+# prettier
+# https://prettier.io/docs/en/options.html
+
+## arrow-parens
+arrowParens: always
+
+## no-bracket-spacing
+bracketSpacing: true
+
+## embedded-language-formatting
+embeddedLanguageFormatting: auto
+
+## end-of-line
+endOfLine: lf
+
+## html-whitespace-sensitivity
+htmlWhitespaceSensitivity: strict
+
+## insert-pragma
+insertPragma: false
+
+## jsx-bracket-same-line
+jsxBracketSameLine: false
+
+## jsx-single-quote
+jsxSingleQuote: true
+
+## print-width
+printWidth: 80
+
+## prose-wrap
+proseWrap: preserve
+
+## quote-props
+quoteProps: preserve
+
+## require-pragma
+requirePragma: false
+
+## no-semi
+semi: true
+
+## single-quote
+singleQuote: true
+
+## tab-width
+tabWidth: 2
+
+## trailing-comma
+trailingComma: es5
+
+## use-tabs
+useTabs: false
+
+## vue-indent-script-and-style
+vueIndentScriptAndStyle: true
